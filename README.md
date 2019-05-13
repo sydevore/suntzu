@@ -12,6 +12,41 @@ TODO will be to put the components into a network diagram.
 
 Once a service has been created, a selection within the UI will expand to a more detailed threat analysis baseline. 
 
+Initial profile questions:
+
+  * Basic info
+  	** Service name
+  	** Repo
+  	** Team contact alias
+  	** Resource filling out this form
+  	** Description of the project to be threat modeled
+  	** Links to architecture diagrams
+  * Service profile
+    ** Components list
+    ** Data assets
+    ** Pojrect dependencies
+    ** Webapp/API/OS/Agent/Library/Framework/Application/Storage - select all that apply and include quantity of each
+    ** Position - public/private/customer/mgmt/
+    ** Compliance frameworks
+  * Initial questions
+    ** Does this store data? If so, what's the sensitivity?
+    ** How does the app handle users?
+    ** Where/how is authN/Z handled?
+    ** How are secrets managed?
+    ** Per component, what privilege/user/role does each run under?
+    ** Compute isolation
+    ** Network isolation
+    ** Encryption at rest
+    ** Encryption in transit
+    ** Logging & non-repudiation
+    ** Logging of sensitisve data
+    ** Frameworks, languages and injection prevention
+    ** Dependency management
+    ** Security release/CSIRT-ready
+    ** Known issues
+
+
+
 TODO will be to output links to testing tools (code scanners, unit tests, etc)
 
 TODO will be to include more detailed recommendations and a more specific diagram.
