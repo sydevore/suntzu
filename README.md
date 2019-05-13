@@ -15,7 +15,7 @@ Once a service has been created, a selection within the UI will expand to a more
 Initial profile questions:
 
   * Basic info
-  	** Service name
+  ** Service name
   	** Repo
   	** Team contact alias
   	** Resource filling out this form
