@@ -14,14 +14,12 @@ Once a service has been created, a selection within the UI will expand to a more
 
 Initial profile questions:
 
-  * Basic info
-  ** Service name
-  	** Repo
-  	** Team contact alias
-  	** Resource filling out this form
-  	** Description of the project to be threat modeled
-  	** Links to architecture diagrams
-  * Service profile
+*  Service name
+* Repo
+* Team contact alias
+* Resource filling out this form
+* Description of the project to be threat modeled
+* Links to architecture diagrams
     ** Components list
     ** Data assets
     ** Pojrect dependencies
